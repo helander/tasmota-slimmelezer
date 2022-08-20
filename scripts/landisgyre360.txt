@@ -1,0 +1,22 @@
+>D  
+>B  
+->sensor53 r
+>M 1  
++1,13,o,16,115200,lehswe,1
+1,0-0:1.0.0(@1,xxx1,W,xxx1,0
+1,1-0:31.7.0(@1,L1 Current,A,curr_l1,1
+1,1-0:51.7.0(@1,L2 Current,A,curr_l2,1
+1,1-0:71.7.0(@1,L3 Current,A,curr_l3,1
+1,1-0:32.7.0(@1,L1 Voltage,V,volts_l1,1
+1,1-0:52.7.0(@1,L2 Voltage,V,volts_l2,1
+1,1-0:72.7.0(@1,L3 Voltage,V,volts_l3,1
+1,1-0:1.8.0(@1,Energy import,kWh,enrg_imp,3
+1,1-0:2.8.0(@1,Energy export,kWh,enrg_exp,3
+1,1-0:1.7.0(@1,Power import,kW,pwr_imp,3
+1,1-0:2.7.0(@1,Power export,kW,pwr_exp,3
+1,1-0:21.7.0(@1,2170,kW,x2170,3
+1,1-0:22.7.0(@1,2270,kW,x2270,3
+1,1-0:41.7.0(@1,4170,kW,x4170,3
+1,1-0:42.7.0(@1,4270,kW,x4270,3
+1,1-0:61.7.0(@1,6170,kW,x6170,3
+1,1-0:62.7.0(@1,6270,kW,x6270,3
