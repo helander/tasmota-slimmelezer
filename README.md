@@ -8,3 +8,12 @@ Once you have the new firmware running on your device you need to upload a scrip
 My metering device is a Landis+Gyr E360 device and its script file is found [here](scripts/landisgyre360/script.txt).
 
 If you have some other meter you would need to create your own script. [Here](other/README.md) you find some information that could be useful during the creation of your own script.
+
+
+The knowledge compiled in these pages are mostly based on the information found here:
+
+* [Tasmota Smart Meter Interface](https://tasmota.github.io/docs/Smart-Meter-Interface/)
+* [Tasmota Scripting](https://tasmota.github.io/docs/Scripting-Language/)
+* [OBIS coding](https://www.promotic.eu/en/pmdoc/Subsystems/Comm/PmDrivers/IEC62056_OBIS.htm)
+
+
