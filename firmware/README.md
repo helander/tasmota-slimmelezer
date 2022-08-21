@@ -9,3 +9,13 @@ Here follows a screenshot for each step of the firmware image creation process. 
 
 
 <img src="step1.jpg" />
+
+<img src="step2.jpg" />
+
+<img src="step3.jpg" />
+
+<img src="step4.jpg" />
+
+<img src="step5.jpg" />
+
+<img src="step6.jpg" />
