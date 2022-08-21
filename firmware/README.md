@@ -1,5 +1,5 @@
 
-This [firmware image](tasmota4MB.bin) can be downloaded and then uploaded to your device, via OTA. 
+This [firmware image](tasmota4M.bin) can be downloaded and then uploaded to your device, via OTA. 
 
 For the interested, here follows some information about the creation process for this image.
 
