@@ -1,5 +1,5 @@
 # tasmota-slimmelezer
-##Run the tasmota firmware on the SlimmeLezer+ device
+Run the tasmota firmware on the SlimmeLezer+ device (and other Smart Meter Interface devices).
 
 The tasmota project does not support out-of-the-box a downloadabe firmware image with Smart Meter Interface functionality included. However it is fairly easy to build such an image using available tasmota tools. The folder [firmware](firmware/README.md) provides a ready built tasmota firmware binary that includes the functionality to use the tasmota Smart Meter Interface on the SlimmeLezer+. Information about the process by which this image was created is also available. Download the image and upload it to your device using OTA. Once the device is restarted with the new image it will expose a WiFi Access Point. You need to connect to this AP from a computer/phone/tablet and you will then be presented with a page where you can enter SSID and credentials for WiFi network the device should connect to.
 
