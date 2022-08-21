@@ -8,3 +8,4 @@ I am using the TasmoCompiler tool. This is a web based tool and I have it runnin
 Here follows a screenshot for each step of the firmware image creation process. It should be made clear about all options selected for the created image.
 
 
+<img src="step1.jpg" />
