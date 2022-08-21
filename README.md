@@ -1,11 +1,10 @@
 # tasmota-slimmelezer
-Run the tasmota firmware on the SlimmeLezer+ device
+##Run the tasmota firmware on the SlimmeLezer+ device
 
-In order to use tasmota on the SlimmerLezer+ device two pieces of information is required:
-* a tasmota firmware binary that includes support for tasmota scripting
-* a tasmota script that provides settings related to the specific metering device 
+The tasmota project does not support out-of-the-box a downloadabe firmware image with Smart Meter Interface functionality included. However it is fairly easy to build such an image using available tasmota tools. The folder [firmware](firmware/README.md) provides a ready built tasmota firmware binary that includes the functionality to use the tasmota Smart Meter Interface on the SlimmeLezer+. Information about the process by which this image was created is also available. Download the image and upload it to your device using OTA.
 
-My metering device is a Landis+Gyr E360 device and its setup script is found in the file scripts/landisgyre360.txt.
+Once you have the new firmware running on your device you need to upload a script file that includes the settings for your corresponding meter(s). Some details about this process is found in the folder [scripts](scripts/README.md).
 
-In order to use some other metering device, additional scripts or updates to existing scripts would be required. The process is roughly as follows:
-* Find out the format and scope of the information coming from the metering device. This is most easily done by first removing all Smart Meter definitions from the currently active Smart Device and then add definitions for the ...
+My metering device is a Landis+Gyr E360 device and its script file is found [here](scripts/landisgyre360/script.txt).
+
+If you have some other meter you would need to create your own script. [Here](other/README.md) you find some information that could be useful during the creation of your own script.
