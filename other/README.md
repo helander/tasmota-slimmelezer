@@ -1,6 +1,6 @@
 
 # TCP/Serial bridge
-
+The provided tasmota firmware image includes a TCP/Serial bridge function that can be configured to create a direct connection to the meter. This is useful in order to find out communication parameters and format of the information sent ny the meter. The script controlled Smart Meter Interface must not be enabled while using the TCP/Serial bridge (and vice versa). The script can be disabled via a tick box in the Edit Script web page. The TCP/Serial bridge is enabled via the Configure Module page. Yoe need to select the 2 GPIO pins connected to your meter and configure them as "TCP Rx" and "TCP Tx". To disable the TCP/Serial bridge the 2 GPIO pins needs to be configured as "None".
 
 I received the following information from my meter using the TCP/Serial bridge:
 ```
@@ -35,4 +35,6 @@ I received the following information from my meter using the TCP/Serial bridge:
 !B1D8
 ```
 
-Each line with a sensor value is prefixed with the sensor type according to the information here.
+Each line with a sensor value is prefixed with the sensor type according to the information [here](https://www.promotic.eu/en/pmdoc/Subsystems/Comm/PmDrivers/IEC62056_OBIS.htm).
+
+I used this information to create the sensor lines in my [script file](../scripts/landisgyre360/script.txt).
