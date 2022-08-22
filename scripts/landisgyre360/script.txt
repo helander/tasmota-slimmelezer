@@ -7,12 +7,12 @@
 1,1-0:2.8.0(@1,Energy export,kWh,enrg_exp,3
 1,1-0:1.7.0(@1,Power import,kW,pwr_imp,3
 1,1-0:2.7.0(@1,Power export,kW,pwr_exp,3
-1,1-0:21.7.0(@1,Power import L1,kW,power_imp_l1,3
-1,1-0:22.7.0(@1,Power export L1,kW,power_exp_l1,3
-1,1-0:41.7.0(@1,Power import L2,kW,power_imp_l2,3
-1,1-0:42.7.0(@1,Power export L2,kW,power_exp_l2,3
-1,1-0:61.7.0(@1,Power import L3,kW,power_imp_l3,3
-1,1-0:62.7.0(@1,Power export L3,kW,power_exp_l3,3
+1,1-0:21.7.0(@1,Power import L1,kW,pwr_imp_l1,3
+1,1-0:22.7.0(@1,Power export L1,kW,pwr_exp_l1,3
+1,1-0:41.7.0(@1,Power import L2,kW,pwr_imp_l2,3
+1,1-0:42.7.0(@1,Power export L2,kW,pwr_exp_l2,3
+1,1-0:61.7.0(@1,Power import L3,kW,pwr_imp_l3,3
+1,1-0:62.7.0(@1,Power export L3,kW,pwr_exp_l3,3
 1,1-0:31.7.0(@1,L1 Current,A,curr_l1,1
 1,1-0:51.7.0(@1,L2 Current,A,curr_l2,1
 1,1-0:71.7.0(@1,L3 Current,A,curr_l3,1
