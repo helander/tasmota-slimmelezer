@@ -3,7 +3,6 @@
 ->sensor53 r
 >M 1  
 +1,13,o,0,115200,landis
-1,0-0:1.0.0(@1,Time stamp,W,time_stamp,0
 1,1-0:1.8.0(@1,Energy import,kWh,enrg_imp,3
 1,1-0:2.8.0(@1,Energy export,kWh,enrg_exp,3
 1,1-0:1.7.0(@1,Power import,kW,pwr_imp,3
