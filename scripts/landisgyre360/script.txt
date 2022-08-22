@@ -2,7 +2,7 @@
 >B  
 ->sensor53 r
 >M 1  
-+1,13,o,0,115200,landis
++1,13,o,16,115200,landis
 1,1-0:1.8.0(@1,Energy import,kWh,enrg_imp,3
 1,1-0:2.8.0(@1,Energy export,kWh,enrg_exp,3
 1,1-0:1.7.0(@1,Power import,kW,pwr_imp,3
